@@ -651,7 +651,11 @@ export default {
         "page_end": 631,
         "dates": []
       }
-    ]
+    ],"ocr": {
+      "use_onnx": true,
+      "det_model_dir": "./paddle/onnx/ch_PP-OCRv4_det_infer.onnx",
+      "rec_model_dir": "./paddle/onnx/ch_PP-OCRv4_rec_infer.onnx"
+    }
   },
   "parser_id": "automation",
   "path": "f77b5d05-6f0c-4df7-9107-440aeaa52ed1",
