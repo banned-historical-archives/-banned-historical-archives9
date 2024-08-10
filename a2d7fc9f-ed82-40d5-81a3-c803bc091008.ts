@@ -756,7 +756,11 @@ export default {
         "page_end": 736,
         "dates": []
       }
-    ]
+    ],"ocr": {
+      "use_onnx": true,
+      "det_model_dir": "./paddle/onnx/ch_PP-OCRv4_det_infer.onnx",
+      "rec_model_dir": "./paddle/onnx/ch_PP-OCRv4_rec_infer.onnx"
+    }
   },
   "parser_id": "automation",
   "path": "a2d7fc9f-ed82-40d5-81a3-c803bc091008",
